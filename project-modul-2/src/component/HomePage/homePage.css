@@ -1,0 +1,10 @@
+.product {
+  box-shadow: none !important;
+}
+
+.owl-prev {
+  height: 60px !important;
+}
+.owl-next {
+  height: 60px !important;
+}

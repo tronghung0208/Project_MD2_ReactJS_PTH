@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.form_group_radio {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.form_group_radio label {
+  margin-right: 20px;
+}
+.content-radio {
+  display: flex;
+}
+.content-radio .item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.form_group_radio .content-radio input {
+  width: 20px;
+  height: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand img {
+  width:100px;
+  height: 50px;
+}
